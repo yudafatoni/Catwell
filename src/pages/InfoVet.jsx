@@ -119,28 +119,6 @@ const InfoVet = () => {
                       <KonfirmasiHapus />
                     </td>
                   </tr>
-                  <tr>
-                    <th scope="row">VET_001</th>
-                    <td style={commonTextStyle}>Klinik hewan sehat</td>
-                    <td style={commonTextStyle}>Jl. Sitarda No.45 Surabaya</td>
-                    <td style={commonTextStyle}>08.00 - 16.00 WIB</td>
-                    <td style={commonTextStyle}>031 987355</td>
-                    <td>
-                      <ModalEditVet />
-                      <KonfirmasiHapus />
-                    </td>
-                  </tr>
-                  <tr>
-                    <th scope="row">VET_001</th>
-                    <td style={commonTextStyle}>Klinik hewan sehat</td>
-                    <td style={commonTextStyle}>Jl. Sitarda No.45 Surabaya</td>
-                    <td style={commonTextStyle}>08.00 - 16.00 WIB</td>
-                    <td style={commonTextStyle}>031 987355</td>
-                    <td>
-                      <ModalEditVet />
-                      <KonfirmasiHapus />
-                    </td>
-                  </tr>
                 </tbody>
               </table>
             </div>

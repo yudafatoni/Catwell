@@ -146,7 +146,7 @@ const Sidebar = () => {
           <div className="logout mx-auto" style={{ marginTop: 125 }}>
             <hr />
             <a href="/" className="d-flex align-items-end" aria-expanded="false" style={{ color: "#F28705", textDecoration: "none" }}>
-              <Image src={IconLogout} alt="" className="mx-2" style={{ width: "24px", height: "24px", color: "#F28705" }} />
+              <Image src={IconLogout} alt="" className="mx-3" style={{ width: "24px", height: "24px", color: "#F28705" }} />
               <strong style={{ color: "#F28705" }}>Logout</strong>
             </a>
           </div>
