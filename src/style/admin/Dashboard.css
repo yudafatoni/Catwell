@@ -1,0 +1,72 @@
+.dashboard-container {
+  position: relative;
+}
+
+/* Main  */
+.main-container {
+  grid-area: main;
+  overflow-y: auto;
+  padding: 20px 20px;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.Bg {
+  height: 23vh;
+  background: url(/src/assets/admin/Rectangle.svg);
+  background-size: cover;
+}
+
+.main-title {
+  display: flex;
+  justify-content: space-between;
+  color: black;
+}
+
+.main-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  margin: 15px 0;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.card-inner {
+  align-items: center;
+  justify-content: center;
+}
+
+.card-inner > .card_icon {
+  font-size: 25px;
+}
+
+.charts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-top: 60px;
+  height: 300px;
+}
+
+.Bord {
+  margin-bottom: 5px;
+}
+/* End Main  */
+
+@media screen and (max-width: 768px) {
+  .main-cards {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin-bottom: 0;
+  }
+
+  .charts {
+    grid-template-columns: 1fr;
+    margin-top: 30px;
+  }
+}

@@ -1,0 +1,31 @@
+* {
+  font-family: "Inter";
+  font-size: 12;
+}
+
+.btn.btn-edit {
+  background-color: #f5f6f7;
+  color: "#15294B";
+}
+
+.btn.btn-hapus {
+  background-color: #f7e8ef;
+  color: #6a1039;
+}
+
+.row {
+  color: "#1E1E1E";
+  font-size: 14;
+  font-family: "Poppins, sans-serif";
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.custom,
+.table-success {
+  background-color: #000000;
+}
+
+tr {
+  background-color: #000000;
+}

@@ -1,0 +1,30 @@
+/* EditSukses.css */
+
+.edit-hapus-container {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(2px); /* Sesuaikan tingkat blur sesuai kebutuhan */
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.img-container {
+  margin-top: 200px; /* Sesuaikan jarak dari gambar ke teks */
+}
+
+.text-container {
+  position: absolute;
+  margin-top: 400px; /* Sesuaikan jarak dari teks ke bagian bawah */
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  font-family: "Poppins";
+  font-weight: 400;
+  word-wrap: break-word;
+}

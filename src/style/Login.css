@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;0,800;1,400;1,700&display=swap");
+
+.myBg {
+  height: 100vh;
+  background: url(../assets/Background.svg);
+  background-size: cover;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  top: 0;
+}
+
+.row {
+  height: 100vh;
+}
+
+.rectangle {
+  width: 455px;
+  height: 300px;
+  border: solid;
+  border-color: #f28705;
+  border-radius: 30px;
+  background-color: #ffffff;
+  box-shadow: 2px 4px 4px;
+}
+
+.rectangleLogin {
+  width: 455px;
+  height: 450px;
+  border: solid 10px;
+  border-color: #f4e6d4;
+  border-radius: 30px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 10px;
+}
+
+.image {
+  height: 52px;
+  width: 248px;
+}
+
+/* FormInput */
+.form {
+  max-width: 400px;
+  margin: auto;
+}
+
+.login-container {
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.label-email,
+.label-password {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.input,
+.form-control {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
+}
+
+/* Button */
+.custom-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end; /* Align the button to the bottom */
+  height: 100%; /* Ensure the container takes the full height of its parent */
+  padding-bottom: 20px; /* Adjust as needed to add some space between the button and the content above */
+}
+
+.custom-button {
+  width: 120.284px;
+  height: 46.167px;
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background-color: #f28705;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+  margin-top: 45px;
+  text-decoration: none;
+}
+
+.custom-button:hover {
+  background-color: #e07502;
+}
+
+/* Admin */
+.borderSukses {
+  width: 455px;
+  height: 450px;
+  border: solid 10px;
+  border-color: #daf4d4;
+  border-radius: 30px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 10px;
+}
+.borderHapus {
+  width: 455px;
+  height: 450px;
+  border: solid 10px;
+  border-color: #f4e6d4;
+  border-radius: 30px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 10px;
+}

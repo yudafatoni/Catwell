@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;0,800;1,400;1,700&display=swap");
+
+.row {
+  height: 100vh;
+}
+
+* {
+  font-family: Inter;
+  color: black;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  height: 100%;
+  width: 300px;
+  padding: 48px 0;
+  /* box-shadow: inset -1px 0 0 rgba(9, 31, 39, 0.1); */
+}
+
+.nav-item,
+.a {
+  font-weight: 700;
+}
+
+.nav-item .nav-link.active {
+  background-color: #f28705;
+  border-radius: 8px;
+  color: #ffffff;
+}
+
+.nav-link.text {
+  color: #8f95b2;
+}
+
+.nav .nav-link:hover {
+  background-color: #ffb253; /* Ganti dengan warna hover yang diinginkan */
+  color: #ffffff;
+  border-radius: 8px; /* Ganti dengan nilai border radius yang diinginkan */
+}
+
+.align-left {
+  align-items: start;
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+.sidebar-closed {
+  width: 60px; /* Lebar ketika ditutup */
+}
+
+.toggle-btn {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 999;
+  cursor: pointer;
+}
+
+/* Add more custom styles as needed */

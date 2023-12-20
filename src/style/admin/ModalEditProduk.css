@@ -1,0 +1,146 @@
+.modal-title.h4 {
+  color: #eca73f;
+  font-size: 18;
+  font-family: "Poppins";
+  font-weight: "600";
+  word-wrap: "break-word";
+}
+
+.login-container {
+  padding: 2px;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
+
+.label-email,
+.label-password {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.input,
+.form-control {
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
+}
+
+.customBtnEdit1 {
+  width: 120.284px;
+  height: 46.167px;
+  color: #ffffff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background-color: #eca73f;
+  border: 1px #d9d9d9 solid;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+  box-shadow: 1px 1px 5px #f28705(0, 0, 0, 0.25);
+}
+.customBtnEdit2 {
+  width: 120.284px;
+  height: 46.167px;
+  color: #f28705;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background-color: transparent;
+  border: 1 px solid;
+  border-color: #f28705;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+  box-shadow: 1px 1px 5px #f28705(255, 164, 73, 0.25);
+}
+
+.customBtnEdit1:hover {
+  background-color: #f28705;
+}
+.customBtnEdit2:hover {
+  background-color: #f20505;
+  color: #d9d9d9;
+}
+.modal-title.h4 {
+  color: #eca73f;
+  font-size: 18;
+  font-family: "Poppins";
+  font-weight: "600";
+  word-wrap: "break-word";
+}
+
+.login-container {
+  padding: 2px;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
+
+.label-email,
+.label-password {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.input,
+.form-control {
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
+}
+
+.customBtnEdit1 {
+  width: 120.284px;
+  height: 46.167px;
+  color: #ffffff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background-color: #eca73f;
+  border: 1px #d9d9d9 solid;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+  box-shadow: 1px 1px 5px #f28705(0, 0, 0, 0.25);
+}
+.customBtnEdit2 {
+  width: 120.284px;
+  height: 46.167px;
+  color: #f28705;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background-color: transparent;
+  border: 1 px solid;
+  border-color: #f28705;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+  box-shadow: 1px 1px 5px #f28705(255, 164, 73, 0.25);
+}
+
+.customBtnEdit1:hover {
+  background-color: #f28705;
+}
+.customBtnEdit2:hover {
+  background-color: #f20505;
+  color: #d9d9d9;
+}
